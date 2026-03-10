@@ -1,7 +1,7 @@
 {
-  "name": "Katalog HARINFOOD POS Lite",
+  "name": "Katalog DILYA FOOD & DRINK POS Lite",
   "short_name": "HARINFOOD POS",
-  "description": "Katalog Interaktif & Pemesanan HARINFOOD POS Lite",
+  "description": "Katalog Interaktif & Pemesanan DILYA FOOD & DRINK POS Lite",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0f0c29",
