@@ -678,13 +678,13 @@ footer {
 .feedback-message.success-color { color: var(--success-color);}
 .feedback-message.danger-color { color: var(--danger-color);}
 @media (max-width: 1024px) {
-    .main-layout { grid-template-columns: 2fr 1fr; gap: 1em;}
+    .main-layout { grid-template-columns: 3fr 2fr; gap: 1em;}
     #produk-list { grid-template-columns: repeat(3, 1fr);}
 }
 @media (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
     .main-layout {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 3fr 2fr;
         gap: 1em;
         padding: 1em;
         max-width: 100vw;
@@ -705,7 +705,7 @@ footer {
 @media (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
     .main-layout {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 3fr 2fr;
         gap: 1em;
         padding: 1em;
         max-width: 100vw;
