@@ -2056,7 +2056,7 @@ applyRoleUIFix();
             }
         });
         let struk =
-            "<big>HARINFOOD<br>" +
+            "<big>DILYA FOOD & DRINK<br>" +
             "Jl Ender Rakit - Gedongan<br>" +
             "----------------------<br>" +
             "Nama: " + nama + "<br>" +
