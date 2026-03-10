@@ -692,7 +692,7 @@ footer {
         align-items: flex-start;
     }
     #produk-list {
-        grid-template-columns: repeat(3, 1fr); /* Ubah dari 2 ke 3 */
+        grid-template-columns: repeat(3, 2fr); /* Ubah dari 2 ke 3 */
         gap: 1.2em;
     }
     #menu-produk-section, #keranjang-form-section {
