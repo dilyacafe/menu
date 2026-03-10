@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
 
 :root {
-    --primary-bg-color: linear-gradient(135deg, #FF8C00, #FFA500, #FF7F50);
+    --primary-bg-color: linear-gradient(135deg, #FF4500, #FFA500, #FF7F50);
     /*--secondary-bg-color: rgba(255, 255, 255, 0.08);*/
    /* --border-neon-color: #00f0ff;
     --shadow-neon-color: rgba(0, 240, 255, 0.4);*/
