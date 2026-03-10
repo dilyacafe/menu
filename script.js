@@ -1201,7 +1201,7 @@ if(isStokKosong(produk)) produkDiv.classList.add('stok-habis');
         try {
             if (navigator.share) {
                 await navigator.share({
-                    title: 'Detail Transaksi HARINFOOD',
+                    title: 'Detail Transaksi DILYA FOOD & DRINK',
                     text: messageToShare
                 });
                 keranjang = [];
