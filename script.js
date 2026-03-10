@@ -1996,7 +1996,7 @@ applyRoleUIFix();
         }
         const headerHtml = `
             <div class="print-header">
-                <p class="shop-name-print"><b>HARINFOOD</b></p>
+                <p class="shop-name-print"><b>DILYA FOOD & DRINK</b></p>
                 <p class="shop-address-print">Jl Ender Rakit - Gedongan</p>
                 <p class="shop-phone-print">081235368643</p>
             </div>
