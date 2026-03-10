@@ -306,7 +306,7 @@ footer {
 }
 #produk-list {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(4, 2fr);
     gap: 1.5em;
     align-content: start;
     flex-grow: 1;
