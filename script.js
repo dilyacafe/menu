@@ -309,16 +309,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     createKembalianModal();
     const produkData = [
-        { id: 1, nama: "Risol", harga: 3000, gambar: "risol.webp", barcode: "risol", stok: 1, kategori:"makanan"},
-        { id: 2, nama: "Cibay", harga: 2500, gambar: "cibay.webp", barcode: "cibay" , stok: 1, kategori:"makanan"},
-        { id: 4, nama: "Tteokbokki 5K", harga: 5000, gambar: "toppoki.webp", barcode: "toppoki", stok: 1, kategori:"makanan"},
-        { id: 5, nama: "Tteokbokki", harga: 10000, gambar: "toppoki1.webp", barcode: "toppoki10" , stok: 1, kategori:"makanan"},
-        { id: 3, nama: "Citung", harga: 2500, gambar: "citung.webp", barcode: "citung", stok: 1, kategori:"makanan"},
-         { id: 16, nama: "Cilok", harga: 1000, gambar: "cilok.webp", barcode: "cilok", stok: 1, kategori:"makanan"},
-         { id: 6, nama: "spaghetti tanpa toping", harga: 6000, gambar: "spaghetti.webp", barcode: "spaghetti", stok: 1, kategori:"makanan"},
-        { id: 7, nama: "spaghetti dengan toping", harga: 10000, gambar: "spaghetti1.webp", barcode: "spaghetti1", stok: 1, kategori:"makanan"},
-        { id: 8, nama: "Balungan", harga: 6000, gambar: "balungan.webp", barcode: "balungan", stok: 1, kategori:"makanan"},
-        { id: 14, nama: "spaghetti balungan", harga: 12000, gambar: "sbalungan.webp", barcode: "spaghetti2" , stok: 1, kategori:"makanan"},
+        { id: 1, nama: "Mie 1", harga: 3000, gambar: "risol.webp", barcode: "mie 2", stok: 1, kategori:"makanan"},
+        { id: 2, nama: "Mie 2", harga: 2500, gambar: "cibay.webp", barcode: "mie 2" , stok: 1, kategori:"makanan"},
+        { id: 4, nama: "Mie 3", harga: 5000, gambar: "toppoki.webp", barcode: "mie 3", stok: 1, kategori:"makanan"},
+        { id: 5, nama: "Mie 4", harga: 10000, gambar: "toppoki1.webp", barcode: "mie 4" , stok: 1, kategori:"makanan"},
+        { id: 3, nama: "Mie 5", harga: 2500, gambar: "citung.webp", barcode: "mie 5", stok: 1, kategori:"makanan"},
+        { id: 16, nama: "Mie 6", harga: 1000, gambar: "cilok.webp", barcode: "mie 6", stok: 1, kategori:"makanan"},
+        { id: 6, nama: "Seblak 1", harga: 6000, gambar: "spaghetti.webp", barcode: "seblak 1", stok: 1, kategori:"makanan"},
+        { id: 7, nama: "Seblak 2", harga: 10000, gambar: "spaghetti1.webp", barcode: "seblak 2", stok: 1, kategori:"makanan"},
+        { id: 8, nama: "Seblak 3", harga: 6000, gambar: "balungan.webp", barcode: "seblak 3", stok: 1, kategori:"makanan"},
+        { id: 14, nama: "Seblak 4", harga: 12000, gambar: "sbalungan.webp", barcode: "seblak 4" , stok: 1, kategori:"makanan"},
+        { id: 24, nama: "Seblak 5", harga: 12000, gambar: "sbalungan.webp", barcode: "seblak 5" , stok: 1, kategori:"makanan"},
+        { id: 25, nama: "Seblak 6", harga: 12000, gambar: "sbalungan.webp", barcode: "seblak 6" , stok: 1, kategori:"makanan"},
         { id: 15, nama: "Es Teh jumbo", harga: 3000, gambar: "esteh.webp", barcode: "esteh" , kategori:"minuman"},
         { id: 9, nama: "Es Teh sedang", harga: 2500, gambar: "esteh2.webp", barcode: "esteh3" , kategori:"minuman"},
         { id: 10, nama: "Es Teh kecil", harga: 2000, gambar: "esteh1.webp", barcode: "esteh2" , kategori:"minuman"},
@@ -326,12 +328,12 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 12, nama: "kopi", harga: 4000, gambar: "kopi.webp", barcode: "kopi" , kategori:"minuman"},
         { id: 13, nama: "Es Tawar", harga: 1500, gambar: "estawar.webp", barcode: "tawar" , kategori:"minuman"},
         { id: 17, nama: "Es Blewah", harga: 5000, gambar: "estawar.webp", barcode: "blewah" , kategori:"minuman"},
-      { id: 18, nama: "Es Teler", harga: 10000, gambar: "estawar.webp", barcode: "teler" , kategori:"minuman"},
-      { id: 19, nama: "Es Podeng", harga: 10000, gambar: "estawar.webp", barcode: "podeng" , kategori:"minuman"},
-      { id: 20, nama: "Sop Buah", harga: 10000, gambar: "estawar.webp", barcode: "sop buah" , kategori:"minuman"},
-            { id: 21, nama: "Pop Ice", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"minuman"},
-      { id: 22, nama: "Pop Ice", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"seblak"},
-      { id: 23, nama: "Pop Ice", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"mie"}
+        { id: 18, nama: "Es Teler", harga: 10000, gambar: "estawar.webp", barcode: "teler" , kategori:"minuman"},
+        { id: 19, nama: "Es Podeng", harga: 10000, gambar: "estawar.webp", barcode: "podeng" , kategori:"minuman"},
+        { id: 20, nama: "Sop Buah", harga: 10000, gambar: "estawar.webp", barcode: "sop buah" , kategori:"minuman"},
+        { id: 21, nama: "Pop Ice", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"minuman"},
+        { id: 22, nama: "Pop Ice", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"seblak"},
+        { id: 23, nama: "Pop Ice", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"mie"}
     ];
     const produkDefaultHarga = produkData.map(p => ({ id: p.id, harga: p.harga }));
     let keranjang = [];
