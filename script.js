@@ -378,10 +378,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         localStorage.removeItem('produkHarga');
     }
-    let tawkWidgetScript = null;
-    function loadTawktoWidget() {
-        if (tawkWidgetScript) return;
-        tawkWidgetScript = document.createElement("script");
+    let tawkWidgetScript00 = null;
+    function loadTawktoWidget00() {
+        if (tawkWidgetScript00) return;
+        tawkWidgetScript00 = document.createElement("script");
         tawkWidgetScript.type = "text/javascript";
         tawkWidgetScript.async = true;
         tawkWidgetScript.src = 'https://embed.tawk.to/687a5f045100991915b4e88b/1j0f06avl00';
