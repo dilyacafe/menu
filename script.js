@@ -380,7 +380,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     let tawkWidgetScript00 = null;
     function loadTawktoWidget00() {
-        if (tawkWidgetScript00) return;
+        if (tawkWidgetScript) return;
         tawkWidgetScript00 = document.createElement("script");
         tawkWidgetScript.type = "text/javascript";
         tawkWidgetScript.async = true;
