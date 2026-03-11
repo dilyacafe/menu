@@ -339,7 +339,11 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 20, nama: "Sop Buah", harga: 10000, gambar: "sop buah.webp", barcode: "sop buah" , kategori:"minuman"},
         { id: 21, nama: "Kopi hitam", harga: 3000, gambar: "kopi.webp", barcode: "pop ice" , kategori:"minuman"},
         { id: 22, nama: "White cofee", harga: 3000, gambar: "white cofee.webp", barcode: "pop ice" , kategori:"seblak"},
-        { id: 23, nama: "Pop Ice", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"mie"}
+        { id: 31, nama: "Sosis jumbo", harga: 3000, gambar: "estawar.webp", barcode: "sosis jumbo" , kategori:"bakaran"},
+        { id: 32, nama: "Pentol jumbo", harga: 3000, gambar: "estawar.webp", barcode: "pentol jumbo" , kategori:"bakaran"},
+        { id: 33, nama: "Cikua", harga: 3000, gambar: "estawar.webp", barcode: "cikua" , kategori:"bakaran"},
+        { id: 34, nama: "Pentol kecil", harga: 3000, gambar: "estawar.webp", barcode: "pentol kecil" , kategori:"bakaran"},
+        { id: 35, nama: "Pentol tahu", harga: 3000, gambar: "estawar.webp", barcode: "pentol tahu" , kategori:"bakaran"}
     ];
     const produkDefaultHarga = produkData.map(p => ({ id: p.id, harga: p.harga }));
     let keranjang = [];
