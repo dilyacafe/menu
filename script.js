@@ -341,8 +341,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 22, nama: "White cofee", harga: 3000, gambar: "white cofee.webp", barcode: "pop ice" , kategori:"seblak"},
         { id: 31, nama: "Sosis jumbo", harga: 3000, gambar: "sosis jumbo.webp", barcode: "sosis jumbo" , kategori:"bakaran"},
         { id: 32, nama: "Pentol jumbo", harga: 3000, gambar: "pentol jumbo.webp", barcode: "pentol jumbo" , kategori:"bakaran"},
-        { id: 33, nama: "Cikua", harga: 3000, gambar: "estawar.webp", barcode: "cikua" , kategori:"bakaran"},
-        { id: 34, nama: "Pentol kecil", harga: 3000, gambar: "estawar.webp", barcode: "pentol kecil" , kategori:"bakaran"},
+        { id: 33, nama: "Cikua", harga: 3000, gambar: "cikua.webp", barcode: "cikua" , kategori:"bakaran"},
+        { id: 34, nama: "Pentol kecil", harga: 3000, gambar: "pentol.webp", barcode: "pentol kecil" , kategori:"bakaran"},
         { id: 35, nama: "Pentol tahu", harga: 3000, gambar: "pentol tahu.webp", barcode: "pentol tahu" , kategori:"bakaran"}
     ];
     const produkDefaultHarga = produkData.map(p => ({ id: p.id, harga: p.harga }));
