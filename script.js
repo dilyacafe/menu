@@ -321,6 +321,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 14, nama: "Seblak 4", harga: 12000, gambar: "seblak.webp", barcode: "seblak 4" , stok: 1, kategori:"makanan"},
         { id: 24, nama: "Seblak 5", harga: 12000, gambar: "seblak.webp", barcode: "seblak 5" , stok: 1, kategori:"makanan"},
         { id: 25, nama: "Seblak 6", harga: 12000, gambar: "seblak.webp", barcode: "seblak 6" , stok: 1, kategori:"makanan"},
+        { id: 26, nama: "Gordil 1", harga: 12000, gambar: "seblak.webp", barcode: "gordil 1" , stok: 1, kategori:"makanan"},
+        { id: 27, nama: "Gordil 2", harga: 12000, gambar: "seblak.webp", barcode: "gordil 2" , stok: 1, kategori:"makanan"},
         { id: 15, nama: "Es Teh jumbo", harga: 3000, gambar: "esteh.webp", barcode: "esteh" , kategori:"minuman"},
         { id: 9, nama: "Es Teh sedang", harga: 2500, gambar: "esteh2.webp", barcode: "esteh3" , kategori:"minuman"},
         { id: 10, nama: "Es Teh kecil", harga: 2000, gambar: "esteh1.webp", barcode: "esteh2" , kategori:"minuman"},
