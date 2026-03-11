@@ -345,18 +345,18 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 34, nama: "Pentol kecil", harga: 3000, gambar: "pentol.webp", barcode: "pentol kecil" , kategori:"bakaran"},
         { id: 35, nama: "Pentol tahu", harga: 3000, gambar: "pentol tahu.webp", barcode: "pentol tahu" , kategori:"bakaran"},
         { id: 36, nama: "Sosos jumbo", harga: 3000, gambar: "pentol tahu.webp", barcode: "sosis jumbo" , kategori:"toping"},
-        { id: 37, nama: "Sosos kecil", harga: 3000, gambar: "pentol tahu.webp", barcode: "sosis kecil" , kategori:"toping"},
-        { id: 38, nama: "Cikuwa", harga: 3000, gambar: "pentol tahu.webp", barcode: "cikuwa" , kategori:"toping"},
-        { id: 39, nama: "Telur utuh", harga: 3000, gambar: "pentol tahu.webp", barcode: "telur utuh" , kategori:"toping"},
-        { id: 40, nama: "Cumi", harga: 3000, gambar: "pentol tahu.webp", barcode: "cumi" , kategori:"toping"},
-        { id: 41, nama: "Scalop", harga: 3000, gambar: "pentol tahu.webp", barcode: "scalop" , kategori:"toping"},
-        { id: 42, nama: "Tempura", harga: 3000, gambar: "pentol tahu.webp", barcode: "tempura" , kategori:"toping"},
-        { id: 43, nama: "Bakso urat", harga: 3000, gambar: "pentol tahu.webp", barcode: "bakso urat" , kategori:"toping"},
-        { id: 44, nama: "Sosis sapi", harga: 3000, gambar: "pentol tahu.webp", barcode: "sosis sapi" , kategori:"toping"},
-        { id: 45, nama: "spageti", harga: 3000, gambar: "pentol tahu.webp", barcode: "spageti" , kategori:"toping"},
-        { id: 46, nama: "Crab stik", harga: 3000, gambar: "pentol tahu.webp", barcode: "crab stik" , kategori:"toping"},
-        { id: 47, nama: "Dumpling ayam", harga: 3000, gambar: "pentol tahu.webp", barcode: "dumpling ayam" , kategori:"toping"},
-        { id: 48, nama: "Dumpling keju", harga: 3000, gambar: "pentol tahu.webp", barcode: "dumpling keju" , kategori:"toping"}
+        { id: 37, nama: "Sosos kecil", harga: 3000, gambar: ".webp", barcode: "sosis kecil" , kategori:"toping"},
+        { id: 38, nama: "Cikuwa", harga: 3000, gambar: "cikua.webp", barcode: "cikuwa" , kategori:"toping"},
+        { id: 39, nama: "Telur utuh", harga: 3000, gambar: "telur utuh.webp", barcode: "telur utuh" , kategori:"toping"},
+        { id: 40, nama: "Cumi", harga: 3000, gambar: "cumi.webp", barcode: "cumi" , kategori:"toping"},
+        { id: 41, nama: "Scalop", harga: 3000, gambar: "scalop.webp", barcode: "scalop" , kategori:"toping"},
+        { id: 42, nama: "Tempura", harga: 3000, gambar: "tempura.webp", barcode: "tempura" , kategori:"toping"},
+        { id: 43, nama: "Bakso urat", harga: 3000, gambar: "bakso urat.webp", barcode: "bakso urat" , kategori:"toping"},
+        { id: 44, nama: "Sosis sapi", harga: 3000, gambar: "sosis sapi.webp", barcode: "sosis sapi" , kategori:"toping"},
+        { id: 45, nama: "spageti", harga: 3000, gambar: "spageti.webp", barcode: "spageti" , kategori:"toping"},
+        { id: 46, nama: "Crab stik", harga: 3000, gambar: "crab stick.webp", barcode: "crab stik" , kategori:"toping"},
+        { id: 47, nama: "Dumpling ayam", harga: 3000, gambar: "dumpling ayam.webp", barcode: "dumpling ayam" , kategori:"toping"},
+        { id: 48, nama: "Dumpling keju", harga: 3000, gambar: "dumpling keju.webp", barcode: "dumpling keju" , kategori:"toping"}
     ];
     const produkDefaultHarga = produkData.map(p => ({ id: p.id, harga: p.harga }));
     let keranjang = [];
