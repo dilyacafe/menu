@@ -1019,7 +1019,7 @@ if(isStokKosong(produk)) produkDiv.classList.add('stok-habis');
         if (keteranganPesanan) {
             message += `\nCatatan: ${keteranganPesanan}\n`;
         }
-        message += `\nPembayaran bisa tunai atau \n via QRIS\Dilya\n \n jika anda ingin langsung melakukan pembayaran melalui scan QRIS tolong tunggu konfirmasi ketersedian pesanan anda`;
+        message += `\nPembayaran bisa tunai atau \n via QRIS\ Dilya\n \n jika anda ingin langsung melakukan pembayaran melalui scan QRIS tolong tunggu konfirmasi ketersedian pesanan anda`;
         return {
             success: true,
             message,
