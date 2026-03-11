@@ -333,12 +333,12 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 24, nama: "Gooday freze", harga: 4000, gambar: "goday freze.webp", barcode: "kopi" , kategori:"minuman"},
         { id: 12, nama: "Drink beng-beng", harga: 4000, gambar: "drink beng-beng.webp", barcode: "kopi" , kategori:"minuman"},
         { id: 13, nama: "Es Tawar", harga: 1500, gambar: "estawar.webp", barcode: "tawar" , kategori:"minuman"},
-        { id: 17, nama: "Es Blewah", harga: 5000, gambar: "estawar.webp", barcode: "blewah" , kategori:"minuman"},
-        { id: 18, nama: "Es Teler", harga: 10000, gambar: "estawar.webp", barcode: "teler" , kategori:"minuman"},
-        { id: 19, nama: "Es Podeng", harga: 10000, gambar: "estawar.webp", barcode: "podeng" , kategori:"minuman"},
-        { id: 20, nama: "Sop Buah", harga: 10000, gambar: "estawar.webp", barcode: "sop buah" , kategori:"minuman"},
-        { id: 21, nama: "Kopi hitam", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"minuman"},
-        { id: 22, nama: "White cofee", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"seblak"},
+        { id: 17, nama: "Es Blewah", harga: 5000, gambar: "es blewah.webp", barcode: "blewah" , kategori:"minuman"},
+        { id: 18, nama: "Es Teler", harga: 10000, gambar: "es teler.webp", barcode: "teler" , kategori:"minuman"},
+        { id: 19, nama: "Es Podeng", harga: 10000, gambar: "es podeng.webp", barcode: "podeng" , kategori:"minuman"},
+        { id: 20, nama: "Sop Buah", harga: 10000, gambar: "sop buah.webp", barcode: "sop buah" , kategori:"minuman"},
+        { id: 21, nama: "Kopi hitam", harga: 3000, gambar: "kopi hitam.webp", barcode: "pop ice" , kategori:"minuman"},
+        { id: 22, nama: "White cofee", harga: 3000, gambar: "white cofee.webp", barcode: "pop ice" , kategori:"seblak"},
         { id: 23, nama: "Pop Ice", harga: 3000, gambar: "estawar.webp", barcode: "pop ice" , kategori:"mie"}
     ];
     const produkDefaultHarga = produkData.map(p => ({ id: p.id, harga: p.harga }));
