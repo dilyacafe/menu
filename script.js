@@ -349,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 37, nama: "Sosis jumbo goreng", harga: 4000, gambar: "sosis jumbo.webp", barcode: "sosis jumbo" , kategori:"snack"},
         { id: 38, nama: "Pentol jumbo goreng", harga: 4000, gambar: "pentol jumbo.webp", barcode: "pentol jumbo" , kategori:"snack"},
         { id: 39, nama: "Cikua bakar", harga: 4000, gambar: "cikua.webp", barcode: "cikua" , kategori:"snack"},
-        { id: 40, nama: "Pentol kecil bakar", harga: 1000, gambar: "pentol.webp", barcode: "pentol kecil" , kategori:"snack"},
+        { id: 40, nama: "Pentol bakar kecil", harga: 1000, gambar: "pentol.webp", barcode: "pentol kecil" , kategori:"snack"},
         { id: 41, nama: "Pentol tahu bakar", harga: 5000, gambar: "pentol tahu.webp", barcode: "pentol tahu" , kategori:"snack"},
       
         { id: 42, nama: "Es teh jumbo", harga: 3000, gambar: "esteh.webp", barcode: "esteh" , kategori:"minuman"},
