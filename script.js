@@ -370,8 +370,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 57, nama: "Kopi hitam", harga: 3000, gambar: "kopi.webp", barcode: "pop ice" , kategori:"minuman"},
         { id: 58, nama: "White cofee", harga: 3000, gambar: "white cofee.webp", barcode: "pop ice" , kategori:"minuman"},
       
-        { id: 59, nama: "Sosos jumbo", harga: 3000, gambar: "pentol tahu.webp", barcode: "sosis jumbo" , kategori:"toping"},
-        { id: 60, nama: "Sosos kecil", harga: 3000, gambar: ".webp", barcode: "sosis kecil" , kategori:"toping"},
+        { id: 59, nama: "Sosis jumbo", harga: 3000, gambar: "pentol tahu.webp", barcode: "sosis jumbo" , kategori:"toping"},
+        { id: 60, nama: "Sosis kecil", harga: 3000, gambar: ".webp", barcode: "sosis kecil" , kategori:"toping"},
         { id: 61, nama: "Cikuwa", harga: 3000, gambar: "cikua.webp", barcode: "cikuwa" , kategori:"toping"},
         { id: 62, nama: "Telur utuh", harga: 3000, gambar: "telur utuh.webp", barcode: "telur utuh" , kategori:"toping"},
         { id: 63, nama: "Cumi", harga: 3000, gambar: "cumi.webp", barcode: "cumi" , kategori:"toping"},
