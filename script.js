@@ -382,7 +382,13 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 68, nama: "spageti", harga: 3000, gambar: "spageti.webp", barcode: "spageti" , kategori:"toping"},
         { id: 69, nama: "Crab stik", harga: 3000, gambar: "crab stick.webp", barcode: "crab stik" , kategori:"toping"},
         { id: 70, nama: "Dumpling ayam", harga: 3000, gambar: "dumpling ayam.webp", barcode: "dumpling ayam" , kategori:"toping"},
-        { id: 71, nama: "Dumpling keju", harga: 3000, gambar: "dumpling keju.webp", barcode: "dumpling keju" , kategori:"toping"}
+        { id: 71, nama: "Dumpling keju", harga: 3000, gambar: "dumpling keju.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 72, nama: "Siomay kering", harga: 3000, gambar: "siomay kering.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 73, nama: "Siomay sayur", harga: 3000, gambar: "siomay sayur.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 74, nama: "makaroni", harga: 3000, gambar: "makaroni.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 75, nama: "Beef slice", harga: 3000, gambar: "beef slice.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 76, nama: "Otak-otak", harga: 3000, gambar: "otak-otak.webp", barcode: "dumpling keju" , kategori:"toping"},
+      
     ];
     const produkDefaultHarga = produkData.map(p => ({ id: p.id, harga: p.harga }));
     let keranjang = [];
