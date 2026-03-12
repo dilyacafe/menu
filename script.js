@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 57, nama: "Scallop goreng", harga: 5000, gambar: "scallop goreng.webp", barcode: "gordil 2" , stok: 1, kategori:"snack"},
         { id: 58, nama: "Cireng ayam goreng", harga: 5000, gambar: "cireng salju.webp", barcode: "gordil 2" , stok: 1, kategori:"snack"},
         { id: 59, nama: "Otak-otak goreng", harga: 5000, gambar: "otak-otak goreng.webp", barcode: "gordil 2" , stok: 1, kategori:"snack"},
-        { id: 60, nama: "Tempura goreng", harga: 5000, gambar: "tempura goreng.webp", barcode: "gordil 2" , stok: 1, kategori:"snack"},
+        { id: 60, nama: "Tempura goreng", harga: 5000, gambar: "tempura goreng.webp", barcode: "tempura goreng" , stok: 1, kategori:"snack"},
         { id: 61, nama: "Pentol goreng", harga: 5000, gambar: "pentol goreng.webp", barcode: "gordil 2" , stok: 1, kategori:"snack"},
         { id: 62, nama: "Pentol tahu goreng", harga: 5000, gambar: "pentol tahu goreng.webp", barcode: "gordil 2" , stok: 1, kategori:"snack"},
         { id: 63, nama: "Mix 1", harga: 5000, gambar: "gordil.webp", barcode: "gordil 2" , stok: 1, kategori:"snack"},
