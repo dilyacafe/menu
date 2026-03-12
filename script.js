@@ -370,24 +370,34 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 57, nama: "Kopi hitam", harga: 3000, gambar: "kopi.webp", barcode: "pop ice" , kategori:"minuman"},
         { id: 58, nama: "White cofee", harga: 3000, gambar: "white cofee.webp", barcode: "pop ice" , kategori:"minuman"},
       
-        { id: 59, nama: "Sosis jumbo", harga: 3000, gambar: "sosis jumbo.webp", barcode: "sosis jumbo" , kategori:"toping"},
-        { id: 60, nama: "Sosis kecil", harga: 3000, gambar: "sosis kecil.webp", barcode: "sosis kecil" , kategori:"toping"},
-        { id: 61, nama: "Cikuwa", harga: 3000, gambar: "cikuwa.webp", barcode: "cikuwa" , kategori:"toping"},
-        { id: 62, nama: "Telur utuh", harga: 3000, gambar: "telur utuh.webp", barcode: "telur utuh" , kategori:"toping"},
-        { id: 63, nama: "Cumi", harga: 3000, gambar: "cumi.webp", barcode: "cumi" , kategori:"toping"},
-        { id: 64, nama: "Scalop", harga: 3000, gambar: "scalop.webp", barcode: "scalop" , kategori:"toping"},
-        { id: 65, nama: "Tempura", harga: 3000, gambar: "tempura.webp", barcode: "tempura" , kategori:"toping"},
-        { id: 66, nama: "Bakso urat", harga: 3000, gambar: "bakso urat.webp", barcode: "bakso urat" , kategori:"toping"},
-        { id: 67, nama: "Sosis sapi", harga: 3000, gambar: "sosis sapi.webp", barcode: "sosis sapi" , kategori:"toping"},
-        { id: 68, nama: "spageti", harga: 3000, gambar: "spageti.webp", barcode: "spageti" , kategori:"toping"},
-        { id: 69, nama: "Crab stik", harga: 3000, gambar: "crab stick.webp", barcode: "crab stik" , kategori:"toping"},
-        { id: 70, nama: "Dumpling ayam", harga: 3000, gambar: "dumpling ayam.webp", barcode: "dumpling ayam" , kategori:"toping"},
-        { id: 71, nama: "Dumpling keju", harga: 3000, gambar: "dumpling keju.webp", barcode: "dumpling keju" , kategori:"toping"},
-        { id: 72, nama: "Siomay kering", harga: 3000, gambar: "siomay kering.webp", barcode: "dumpling keju" , kategori:"toping"},
-        { id: 73, nama: "Siomay sayur", harga: 3000, gambar: "siomay sayur.webp", barcode: "dumpling keju" , kategori:"toping"},
-        { id: 74, nama: "makaroni", harga: 3000, gambar: "makaroni.webp", barcode: "dumpling keju" , kategori:"toping"},
-        { id: 75, nama: "Beef slice", harga: 3000, gambar: "beef slice.webp", barcode: "dumpling keju" , kategori:"toping"},
-        { id: 76, nama: "Otak-otak", harga: 3000, gambar: "otak-otak.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 59, nama: "Beef slice", harga: 3000, gambar: "beef slice.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 60, nama: "Bakso urat", harga: 3000, gambar: "bakso urat.webp", barcode: "bakso urat" , kategori:"toping"},
+        { id: 61, nama: "Cikuwa", harga: 3000, gambar: "cikuwa.webp", barcode: "cikuwa" , kategori:"toping"}, 
+        { id: 62, nama: "Cikuwa", harga: 3000, gambar: "cikuwa.webp", barcode: "cikuwa" , kategori:"toping"},  
+        { id: 63, nama: "Cumi", harga: 3000, gambar: "cumi.webp", barcode: "cumi" , kategori:"toping"}, 
+        { id: 64, nama: "Crab stik", harga: 3000, gambar: "crab stick.webp", barcode: "crab stik" , kategori:"toping"},
+        { id: 65, nama: "Cuanki lidah", harga: 3000, gambar: "cuanki lidah.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 66, nama: "Cuanki tahu", harga: 3000, gambar: "cuanki tahu.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 67, nama: "Cireng salju", harga: 3000, gambar: "cireng salju.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 68, nama: "Dumpling ayam", harga: 3000, gambar: "dumpling ayam.webp", barcode: "dumpling ayam" , kategori:"toping"},
+        { id: 69, nama: "Dumpling keju", harga: 3000, gambar: "dumpling keju.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 70, nama: "makaroni", harga: 3000, gambar: "makaroni.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 71, nama: "Otak-otak", harga: 3000, gambar: "otak-otak.webp", barcode: "dumpling keju" , kategori:"toping"}, 
+        { id: 72, nama: "Sosis jumbo", harga: 3000, gambar: "sosis jumbo.webp", barcode: "sosis jumbo" , kategori:"toping"},
+        { id: 73, nama: "Sosis kecil", harga: 3000, gambar: "sosis kecil.webp", barcode: "sosis kecil" , kategori:"toping"},
+        { id: 74, nama: "Scalop", harga: 3000, gambar: "scalop.webp", barcode: "scalop" , kategori:"toping"},
+        { id: 75, nama: "Sosis sapi", harga: 3000, gambar: "sosis sapi.webp", barcode: "sosis sapi" , kategori:"toping"},
+        { id: 76, nama: "spageti", harga: 3000, gambar: "spageti.webp", barcode: "spageti" , kategori:"toping"},
+        { id: 77, nama: "Siomay kering", harga: 3000, gambar: "siomay kering.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 78, nama: "Siomay sayur", harga: 3000, gambar: "siomay sayur.webp", barcode: "dumpling keju" , kategori:"toping"},
+        { id: 79, nama: "Tempura", harga: 3000, gambar: "tempura.webp", barcode: "tempura" , kategori:"toping"},
+        { id: 80, nama: "Telur utuh", harga: 3000, gambar: "telur utuh.webp", barcode: "telur utuh" , kategori:"toping"},
+      
+       
+        
+      
+       
+       
       
     ];
     const produkDefaultHarga = produkData.map(p => ({ id: p.id, harga: p.harga }));
